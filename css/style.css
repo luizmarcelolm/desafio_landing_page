@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #033244 0% 0% no-repeat padding-box;
+}
+
+.container {
+    padding-top: 40px;
+    margin: auto;
+}
+
+.header {
+    font-size: 15px;
+    font-weight: bold;
+}
+.link {
+    text-decoration: none;
+    float: left;
+    margin: 10px;
+    list-style: none;
+    margin-right: 5px;
+    color: #FFFFFF;
+}
+
+section {
+    background-image: url('../images/banner.png');
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50%;
+}
+
+
+.contato {
+    position: absolute;
+    text-align: left;
+    font-size: 16px;
+    color: #473C8B;
+    font-weight: bold;
+    font-family: Helvetica;
+    left: 10%;
+    bottom: 110px;
+    letter-spacing: 1px;
+}
+
+
+
+.linkedin {
+    position: absolute;
+    background-image: url('../images/linkedin.jpg');
+    width: 85px;
+}
+
+.github {
+    position: absolute;
+    background-image: url('../images/github.png');
+    width: 50px;
+    top: 140px;
+}
+
+.formContainer {
+    position: absolute;
+    max-width: 230px;
+    background-color: #473C8B8B;
+    padding: 20px;
+    right: 10%;
+    bottom: 40px;
+    border-radius: 10%;
+}
+
+.container_texto {
+    background-color: #473C8B1A;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.mb {
+    margin-bottom: 15px;
+    text-align: center;
+    color: white;
+}
+
+input,
+select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: #473C8B8B;
+    font-weight: bold;
+}
+
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url('../images/arrow.jpg');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+}
+
+
+/* TELA DE MENOS 850 PX */
+
+@media screen and (max-width: 850px) {
+    .picture {
+        position: absolute;
+        border: 8px solid #FFFFE0;
+        left: 50%;
+        top: 50%;
+        transform: translate(-80px, -185px);
+        width: 160px;
+        border-radius: 50%;
+    }
+    .experiencia {
+        top: 350px;
+    }
+    .nome {
+        position: absolute;
+        min-width: 260px;
+        text-align: center;
+        font-size: 15px;
+        color: #473C8BDB;
+        letter-spacing: 4px;
+        font-family: Helvetica;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -150%);
+    }
+    #desenvolvedorFullStack {
+        text-align: center;
+        font-size: 16px;
+        color: #473C8B;
+        letter-spacing: 4px;
+        font-weight: bold;
+    }
+}
+
+
+/* TELA DE MENOS 750 PX */
+
+@media screen and (max-width: 750px) {
+    .contato {
+        bottom: 210px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        min-width: 320px;
+    }
+    .linkedin {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .github {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .formContainer {
+        bottom: -90px;
+        min-width: 200px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+
+/* TELA DE MENOS 380 PX */
+
+@media screen and (max-width: 380px) {
+    .picture {
+        position: absolute;
+        border: 8px solid #FFFFE0;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50px, -120px);
+        width: 100px;
+        border-radius: 50%;
+    }
+    .sobre {
+        line-height: 1.5;
+        position: absolute;
+        text-align: center;
+        color: #473C8B;
+        font-weight: bold;
+        font-family: Helvetica;
+        left: 10%;
+        right: 10%;
+        bottom: 50px;
+        letter-spacing: 1px;
+    }
+    .nome {
+        position: absolute;
+        min-width: 260px;
+        text-align: center;
+        font-size: 12px;
+        color: #473C8BDB;
+        letter-spacing: 4px;
+        font-family: Helvetica;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #desenvolvedorFullStack {
+        text-align: center;
+        font-size: 12px;
+        color: #473C8B;
+        letter-spacing: 4px;
+        font-weight: bold;
+    }
+    .contato {
+        font-size: 12px;
+        bottom: 210px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        min-width: 320px;
+    }
+    .link {
+        text-decoration: none;
+        font-size: 12px;
+        float: left;
+        margin: 5px;
+        list-style: none;
+        margin-right: 5px;
+        color: white;
+    }
+    .linkBaixarCv {
+        float: none;
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-decoration: none;
+        font-size: 12px;
+        margin: 10px;
+        list-style: none;
+        margin-right: 10px;
+        color: white;
+    }
+}
+
+
+/* TELA DE MENOS 360 PX */
+
+@media screen and (max-width: 360px) {
+    .github {
+        transform: translate(-50%, -50%);
+    }
+}
