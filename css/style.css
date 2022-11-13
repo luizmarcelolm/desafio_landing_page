@@ -5,25 +5,36 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #033244 0% 0% no-repeat padding-box;
+    background-color: white;
 }
 
 .container {
-    padding-top: 40px;
-    margin: auto;
+    padding-top: 10px;
+    margin:auto;
 }
 
-.header {
+header {
     font-size: 15px;
     font-weight: bold;
 }
+
 .link {
     text-decoration: none;
     float: left;
     margin: 10px;
     list-style: none;
     margin-right: 5px;
-    color: #FFFFFF;
+    color: white;
+    font-size: 13px;
+}
+
+.link1 {
+    text-decoration: none;
+    margin: 10px;
+    list-style: none;
+    margin-right: 5px;
+    color: red;
+    font-size: 13px;
 }
 
 section {
@@ -35,6 +46,16 @@ section {
     height: 50%;
 }
 
+footer {
+    top: 0px;
+    left: 0px;
+    background-size: cover;
+    background-color: #033244;
+    text-align: center;
+    height: 10%;
+    bottom: 0px;
+    left: 0px;
+}
 
 .contato {
     position: absolute;
@@ -48,7 +69,18 @@ section {
     letter-spacing: 1px;
 }
 
-
+.sobre {
+    line-height: 1.5;
+    position: absolute;
+    text-align: center;
+    color: #473C8B;
+    font-weight: bold;
+    font-family: Helvetica;
+    left: 10%;
+    right: 10%;
+    bottom: 90px;
+    letter-spacing: 1px;
+}
 
 .linkedin {
     position: absolute;
@@ -63,55 +95,7 @@ section {
     top: 140px;
 }
 
-.formContainer {
-    position: absolute;
-    max-width: 230px;
-    background-color: #473C8B8B;
-    padding: 20px;
-    right: 10%;
-    bottom: 40px;
-    border-radius: 10%;
-}
 
-.container_texto {
-    background-color: #473C8B1A;
-    padding: 5px;
-    border-radius: 10px;
-}
-
-h2 {
-    font-size: 16px;
-}
-
-.mb {
-    margin-bottom: 15px;
-    text-align: center;
-    color: white;
-}
-
-input,
-select {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 10px;
-    border: none;
-    margin-bottom: 10px;
-}
-
-input[type="submit"] {
-    color: white;
-    background-color: #473C8B8B;
-    font-weight: bold;
-}
-
-select {
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    appearance: none;
-    background-image: url('../images/arrow.jpg');
-    background-repeat: no-repeat;
-    background-position: calc(100% - 10px) center;
-}
 
 
 /* TELA DE MENOS 850 PX */
